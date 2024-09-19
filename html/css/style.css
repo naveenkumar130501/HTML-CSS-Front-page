@@ -1,0 +1,58 @@
+body{
+    background:url("bg5.jpg");
+}
+.reg{
+    /* border:1px solid; */
+    width:400px;
+    background-color: rgba(12, 10, 10, 0.445);
+    margin:250px auto;
+    color:aliceblue;
+    padding:10px 20px 30px;
+    border-radius:10px;
+}
+.tit{
+    text-align: center;
+    color:rgba(245, 108, 10, 0.897);
+    font-size:1.5em;
+    margin:10px 0px 20px;
+}
+.inp{
+    display:block;
+    /* border:1px solid; */
+    font-size:30px;
+}
+.main input{
+    width:100%;
+    font-size:1.5em;
+    padding:5px 10px;
+    box-sizing: border-box;
+    border:1px solid green;
+    box-shadow:2px 2px 3px 1px;
+    margin:10px 0px 10px;
+    border-radius:10px;
+}
+.sub input{
+    /* box-shadow:1px 2px 2px 1px; */
+    accent-color:rgba(0, 255, 42, 0.938);
+    transform: scale(1.4);
+
+}
+.sub{
+    margin:10px 0px 20px;
+}
+.sub label{
+    margin:0px 3px;
+    font-size:1.4em;
+}
+.SUBMIT{
+    text-align:center;
+}
+BUTTON{
+    font-size:1.9EM;
+    color:aqua;
+    background-color: black;
+    border-radius:10px;
+}
+.reg input:focus{
+    background-color: aqua;
+}
